@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEBBAD0E7827B34091945401 /* Pods_CleanSwiftApiCars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD308B24354394CAEC336FE /* Pods_CleanSwiftApiCars.framework */; };
 		EACF1530232B238900BC00AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF152F232B238900BC00AF /* AppDelegate.swift */; };
-		EACF1532232B238900BC00AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1531232B238900BC00AF /* ViewController.swift */; };
 		EACF1535232B238900BC00AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACF1533232B238900BC00AF /* Main.storyboard */; };
 		EACF1537232B238A00BC00AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACF1536232B238A00BC00AF /* Assets.xcassets */; };
 		EACF153A232B238A00BC00AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACF1538232B238A00BC00AF /* LaunchScreen.storyboard */; };
+		EACF1549232B247500BC00AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1548232B247500BC00AF /* Constants.swift */; };
+		EACF154B232B248700BC00AF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF154A232B248700BC00AF /* Alert.swift */; };
+		EACF154E232B24B700BC00AF /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF154C232B24B700BC00AF /* CarTableViewCell.swift */; };
+		EACF154F232B24B700BC00AF /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACF154D232B24B700BC00AF /* CarTableViewCell.xib */; };
+		EACF1556232B265F00BC00AF /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1550232B265F00BC00AF /* DetailPresenter.swift */; };
+		EACF1557232B265F00BC00AF /* DetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1551232B265F00BC00AF /* DetailWorker.swift */; };
+		EACF1558232B265F00BC00AF /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1552232B265F00BC00AF /* DetailRouter.swift */; };
+		EACF1559232B265F00BC00AF /* DetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1553232B265F00BC00AF /* DetailModels.swift */; };
+		EACF155A232B265F00BC00AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1554232B265F00BC00AF /* DetailViewController.swift */; };
+		EACF155B232B265F00BC00AF /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1555232B265F00BC00AF /* DetailInteractor.swift */; };
+		EACF1562232B267500BC00AF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF155C232B267500BC00AF /* MainPresenter.swift */; };
+		EACF1563232B267500BC00AF /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF155D232B267500BC00AF /* MainWorker.swift */; };
+		EACF1564232B267500BC00AF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF155E232B267500BC00AF /* MainRouter.swift */; };
+		EACF1565232B267500BC00AF /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF155F232B267500BC00AF /* MainModels.swift */; };
+		EACF1566232B267500BC00AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1560232B267500BC00AF /* MainViewController.swift */; };
+		EACF1567232B267500BC00AF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF1561232B267500BC00AF /* MainInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D86D3778CFE41657EAECFE1 /* Pods-CleanSwiftApiCars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftApiCars.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftApiCars/Pods-CleanSwiftApiCars.release.xcconfig"; sourceTree = "<group>"; };
+		3FD308B24354394CAEC336FE /* Pods_CleanSwiftApiCars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanSwiftApiCars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F726945AB0CF87044DA5FD /* Pods-CleanSwiftApiCars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftApiCars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftApiCars/Pods-CleanSwiftApiCars.debug.xcconfig"; sourceTree = "<group>"; };
 		EACF152C232B238900BC00AF /* CleanSwiftApiCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftApiCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACF152F232B238900BC00AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EACF1531232B238900BC00AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EACF1534232B238900BC00AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EACF1536232B238A00BC00AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACF1539232B238A00BC00AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EACF153B232B238A00BC00AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACF1548232B247500BC00AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EACF154A232B248700BC00AF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		EACF154C232B24B700BC00AF /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		EACF154D232B24B700BC00AF /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		EACF1550232B265F00BC00AF /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		EACF1551232B265F00BC00AF /* DetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWorker.swift; sourceTree = "<group>"; };
+		EACF1552232B265F00BC00AF /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		EACF1553232B265F00BC00AF /* DetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModels.swift; sourceTree = "<group>"; };
+		EACF1554232B265F00BC00AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EACF1555232B265F00BC00AF /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		EACF155C232B267500BC00AF /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		EACF155D232B267500BC00AF /* MainWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorker.swift; sourceTree = "<group>"; };
+		EACF155E232B267500BC00AF /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		EACF155F232B267500BC00AF /* MainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
+		EACF1560232B267500BC00AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EACF1561232B267500BC00AF /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBBAD0E7827B34091945401 /* Pods_CleanSwiftApiCars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B753BDAB0C2DA1815E1462B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85F726945AB0CF87044DA5FD /* Pods-CleanSwiftApiCars.debug.xcconfig */,
+				3D86D3778CFE41657EAECFE1 /* Pods-CleanSwiftApiCars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E52AE86C5A5901F4D3F9A7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD308B24354394CAEC336FE /* Pods_CleanSwiftApiCars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EACF1523232B238900BC00AF = {
 			isa = PBXGroup;
 			children = (
 				EACF152E232B238900BC00AF /* CleanSwiftApiCars */,
 				EACF152D232B238900BC00AF /* Products */,
+				7B753BDAB0C2DA1815E1462B /* Pods */,
+				E52AE86C5A5901F4D3F9A7F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,77 @@
 		EACF152E232B238900BC00AF /* CleanSwiftApiCars */ = {
 			isa = PBXGroup;
 			children = (
+				EACF1547232B246100BC00AF /* Helpers */,
+				EACF1545232B241900BC00AF /* Scenes */,
+				EACF1541232B239700BC00AF /* SuportingFiles */,
+			);
+			path = CleanSwiftApiCars;
+			sourceTree = "<group>";
+		};
+		EACF1541232B239700BC00AF /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				EACF152F232B238900BC00AF /* AppDelegate.swift */,
-				EACF1531232B238900BC00AF /* ViewController.swift */,
-				EACF1533232B238900BC00AF /* Main.storyboard */,
 				EACF1536232B238A00BC00AF /* Assets.xcassets */,
 				EACF1538232B238A00BC00AF /* LaunchScreen.storyboard */,
 				EACF153B232B238A00BC00AF /* Info.plist */,
 			);
-			path = CleanSwiftApiCars;
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
+		EACF1542232B23B500BC00AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EACF155C232B267500BC00AF /* MainPresenter.swift */,
+				EACF155D232B267500BC00AF /* MainWorker.swift */,
+				EACF155E232B267500BC00AF /* MainRouter.swift */,
+				EACF155F232B267500BC00AF /* MainModels.swift */,
+				EACF1560232B267500BC00AF /* MainViewController.swift */,
+				EACF1561232B267500BC00AF /* MainInteractor.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EACF1544232B23ED00BC00AF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EACF1550232B265F00BC00AF /* DetailPresenter.swift */,
+				EACF1551232B265F00BC00AF /* DetailWorker.swift */,
+				EACF1552232B265F00BC00AF /* DetailRouter.swift */,
+				EACF1553232B265F00BC00AF /* DetailModels.swift */,
+				EACF1554232B265F00BC00AF /* DetailViewController.swift */,
+				EACF1555232B265F00BC00AF /* DetailInteractor.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		EACF1545232B241900BC00AF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EACF1546232B242B00BC00AF /* Views */,
+				EACF1544232B23ED00BC00AF /* Detail */,
+				EACF1542232B23B500BC00AF /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EACF1546232B242B00BC00AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EACF1533232B238900BC00AF /* Main.storyboard */,
+				EACF154C232B24B700BC00AF /* CarTableViewCell.swift */,
+				EACF154D232B24B700BC00AF /* CarTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EACF1547232B246100BC00AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EACF1548232B247500BC00AF /* Constants.swift */,
+				EACF154A232B248700BC00AF /* Alert.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EACF153E232B238A00BC00AF /* Build configuration list for PBXNativeTarget "CleanSwiftApiCars" */;
 			buildPhases = (
+				F58AE9A32EBD82CEFFC670B3 /* [CP] Check Pods Manifest.lock */,
 				EACF1528232B238900BC00AF /* Sources */,
 				EACF1529232B238900BC00AF /* Frameworks */,
 				EACF152A232B238900BC00AF /* Resources */,
+				90994F2D122DB901D55AFB31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +243,77 @@
 			files = (
 				EACF153A232B238A00BC00AF /* LaunchScreen.storyboard in Resources */,
 				EACF1537232B238A00BC00AF /* Assets.xcassets in Resources */,
+				EACF154F232B24B700BC00AF /* CarTableViewCell.xib in Resources */,
 				EACF1535232B238900BC00AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90994F2D122DB901D55AFB31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CleanSwiftApiCars/Pods-CleanSwiftApiCars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanSwiftApiCars/Pods-CleanSwiftApiCars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58AE9A32EBD82CEFFC670B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanSwiftApiCars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EACF1528232B238900BC00AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EACF1532232B238900BC00AF /* ViewController.swift in Sources */,
+				EACF155A232B265F00BC00AF /* DetailViewController.swift in Sources */,
+				EACF155B232B265F00BC00AF /* DetailInteractor.swift in Sources */,
+				EACF154B232B248700BC00AF /* Alert.swift in Sources */,
 				EACF1530232B238900BC00AF /* AppDelegate.swift in Sources */,
+				EACF154E232B24B700BC00AF /* CarTableViewCell.swift in Sources */,
+				EACF1564232B267500BC00AF /* MainRouter.swift in Sources */,
+				EACF1556232B265F00BC00AF /* DetailPresenter.swift in Sources */,
+				EACF1559232B265F00BC00AF /* DetailModels.swift in Sources */,
+				EACF1557232B265F00BC00AF /* DetailWorker.swift in Sources */,
+				EACF1566232B267500BC00AF /* MainViewController.swift in Sources */,
+				EACF1562232B267500BC00AF /* MainPresenter.swift in Sources */,
+				EACF1558232B265F00BC00AF /* DetailRouter.swift in Sources */,
+				EACF1563232B267500BC00AF /* MainWorker.swift in Sources */,
+				EACF1565232B267500BC00AF /* MainModels.swift in Sources */,
+				EACF1549232B247500BC00AF /* Constants.swift in Sources */,
+				EACF1567232B267500BC00AF /* MainInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +457,11 @@
 		};
 		EACF153F232B238A00BC00AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F726945AB0CF87044DA5FD /* Pods-CleanSwiftApiCars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CleanSwiftApiCars/Info.plist;
+				INFOPLIST_FILE = CleanSwiftApiCars/SuportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +475,11 @@
 		};
 		EACF1540232B238A00BC00AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D86D3778CFE41657EAECFE1 /* Pods-CleanSwiftApiCars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CleanSwiftApiCars/Info.plist;
+				INFOPLIST_FILE = CleanSwiftApiCars/SuportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
